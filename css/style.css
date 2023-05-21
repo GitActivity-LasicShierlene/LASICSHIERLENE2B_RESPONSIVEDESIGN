@@ -1,179 +1,146 @@
-/* External CSS */
-
-body{
-	background-color: black;
-	color: black;
-	font-family: Arial;
-	font-size: 16px;
-	margin: 0px;
-	padding: 0px;
-}
-
-div.wrapper{
-	background-color: white;
-	width: 1250px;
-	height: 1425px;
-	margin: 0 auto;
-	padding: 23px;
-}
-div.wrapper1{
-	background-color: white;
-	height: 1250px;
-	width: 1250px;
-	margin: 0 auto;
-	padding: 23px;
-}
-
-div.header{
-	background: #ba8529;
-	outline: 2px solid black;
-	width: 99.7%;
-	margin-left: 2px;
-	margin-bottom: 3px;
-	padding: 0px;
-}
- .header img
- {
- 	margin-top: 5px;
- }
-.square {
-  padding-top: 598px;
-  margin-top: 140px;
-  top: 0;
-  left: 1;
-  height: 715px;
-  width: 227px;
-  position: absolute;
-  background: black;
-  }
-
-div.nav{
-	text-align: center;
-	margin-right: 0px;
-	background: black;
-	text-indent: 30px;
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 
 }
-
-div.nav ul{
-	margin: 1px;
-	padding: 10px 0;
+.container{
+	width: 100%;
+	height: 
 }
 
-div.nav ul li{
+html,body {
+	width: 100%;
+	height: 100%;
+	background-image: #091836;
+}
+
+header {
+	background-image: url("blurr.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+main {
+	background: transparent;
+	width: 90%;
+	height: 100px;
+}
+main .logo {
+	float: left;
+
+}
+.logo {
+	background-image: transparent;
+	width: 90px;
+	height: 10px;
+	background-position: center;
+	margin-right: 20px;
+	margin-top: 5px;
+}
+
+
+
+}
+#main nav ul {
+	float: right;
+	margin-right: 50px;
+	margin-top: -1px;
+}
+
+#main nav ul li {
 	list-style-type: none;
 	display: inline-block;
+	margin: 0 1px;
+	line-height: 9px;
 }
 
-div.nav ul li a{
+#main nav ul li a {
 	text-decoration: none;
-	color: white;
-	text-transform: uppercase;
+	color: #fff;
+	font-size: 20px;
+    padding: 10px 10px;
+	transition: 0.4s all ease-out;
+
+}
+
+#main nav ul li a.active,
+#main nav ul li a:hover {
+	background: #fd4a47;
+	color: #C4D6B0;
+	transition: 0.4s all ease-out;
+}
+.banner{
+	width: 100%;
+	height:100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(blurr.jpg);
+	background-size:cover;
+	background-position: center;
+}
+
+
+
+.text {
+	transform: translate(-60%,-60%);
+	position: absolute;
+	top: 50%;
+	left: 55%;
+	
+}
+
+.text h1 {
+	color: #fff;
+	font-size: 17px;
 	font-family: Arial;
-	font-weight: bold;
-	margin-right: 15px;
-	padding: 10px;	
+	
+} 
+
+.text h2 {
+	color: #fff;
+	font-size: 17px;
+
+
+}
+.text span {
+	width: 5px;
+	height: 3px;
+	transform: translate(-30%,-30%);
+	position: absolute;
+	top: 10%;
+	left: -15%;
+	
+
 }
 
-div.nav ul li a.active{
-	color: #ba8529;
+.text p {
+	font-size: 40px;
+	line-height: 30px;
+	letter-spacing: 1px;
+	color: #C4D6B0;
+	word-spacing: 12;
 }
-
-div.nav ul li a:hover{
-	color: khaki;
-}
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-}
-
-div.banner{
-	width: 102%;
-	height: 250px;
-	margin-left: 230px;
-	margin-right: 0px;
-}
-
-div.banner img{
-	width: 79.9%;
-	height: 648px;
-	outline: 2px solid black;
-	margin-top: 2px;
-}
-div.banner1{
-	width: 125%;
-	height: 250px;
-	margin-left: 0px;
-	margin-right: 0px;
-}
-
-div.banner1 img{
-	width: 79.8%;
-	margin-top: 2px;
-	margin-left: 2px;
-	height: 1030px;
-	outline: 2px solid black;
-}
-.sidebar {
-  color: white;
-  width: 130px;
-  padding-top: 0px;
-  margin-top: 0px;
-  top: 0;
-  left: 1;
-  position: relative;
-  height: 100%;
-  overflow: auto;
-  text-align: center;
-  margin-left: 9px;
-  display: inline-block;
-  background: transparent;
-  padding: 10px 40px;
-  color: white;
-  outline: 2px solid yellowgreen;
-  font-family: Century Gothic;
-  font-size: 12px;
-}
-
-.sidebar a {
-  display: block;
-  color: white;
-  padding: 5px;
-  text-decoration: none;
-  }
- 
-.sidebar a.active {
-  background-color: #04AA6D;
-  color: white;
-}
-
-.sidebar a:hover:not(.active) {
-  background-color: #555;
-  color: white;
-}
-
 div.content {
-  margin-left: 225px;
-  margin-top: 150px;
-  padding: 1px 16px;
-  height: 600px;
-  background: white;
-  color: black;
+	margin-left: 10px;
+	margin-top: 5px;
+	padding: 1px 16px;
+	height: 600;
+	background: #C4D6B0;
+	color: black;
+	left: 50%;
 }
 div.content p {
-  text-align: justify;
-  background: white;
+	text-align: justify;	
 }
-
 div.footer {
 	padding-top: 15px;
 	padding-bottom:2px;
 	text-align: center;
-	background: khaki;
-	color: black;
+	background: black;
+	color: white;
 	outline: 2px solid black;
 	margin-bottom: 0px;
-	width: 1008.5px;
+	width: 1470px;
 }
 
 div.footer img{
@@ -181,21 +148,22 @@ div.footer img{
 }
 div.footer p{
 	font-weight: bold;
-	background: khaki;
+	background: black;
 	text-align: center;
 }
 
 div.footer1 {
 	clear: both;
-	margin-left: 0px;
+	margin-left: 5px;
+	margin-right: 10px;
 	padding-top:15px;
 	padding-bottom:10px;
 	text-align: center;
-	background: khaki;
+	background: black;
 	color: black;
 	outline: 2px solid black;
-	width: 99.7%;
-	margin-left: 2px;
+	width: 250%;
+	margin-left: 5px;
 	margin-bottom: 0px;
 }
 
@@ -207,30 +175,18 @@ div.footer1 img{
 	padding: 0px;
 	margin: 0px;
 }
-div.right-side-bar{
-	width: 180px;
-	float: right;
-	min-height: 50px;
-	margin: 10px 0px 10px 10px;
-	margin-top: 250px;
-	margin-right: 90px;
+
+.fa-facebook{
+	color: blue;
 }
 
-div.right-side-bar img{
-	width: 269px;
-	height: 410px;
-	padding-top: 200px;
+.fa-square-instagram{
+	color: purple;
+	background: transparent;
 }
-
-div.right-side-bar ul{
-	margin: 0;
-	padding: 0px;
+.fa-solid{
+	color: white;
 }
-
-div.right-side-bar ul li{
-	list-style-type: none;
-}
-
 div.contact-section{
   margin-left: 300px;
   margin-right: 300px;
@@ -238,12 +194,12 @@ div.contact-section{
 }
 .contact-section h1{
   text-align: center;
-  color: #34495e;
+  color: white;
   margin-bottom: 0px;
 }
 .contact-section p{
   text-align: center;
-  color: #34495e;
+  color: white;
 }
 .border{
   width: 100px;
@@ -265,7 +221,7 @@ div.contact-section{
   background: transparent;
   padding: 20px 40px;
   outline: black;
-  color: black;
+  color: white;
   transition: 0.5s;
 
 }
@@ -291,4 +247,13 @@ textarea.contact-form-text{
 }
 .contact-form-btn:hover{
   background: steelblue;
+}
+.fa-spotify {
+	color: green;
+}
+.fa-youtube {
+	color: red;
+}
+.fa-tiktok {
+	color: black-purple;
 }
