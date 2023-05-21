@@ -1,0 +1,294 @@
+/* External CSS */
+
+body{
+	background-color: black;
+	color: black;
+	font-family: Arial;
+	font-size: 16px;
+	margin: 0px;
+	padding: 0px;
+}
+
+div.wrapper{
+	background-color: white;
+	width: 1250px;
+	height: 1425px;
+	margin: 0 auto;
+	padding: 23px;
+}
+div.wrapper1{
+	background-color: white;
+	height: 1250px;
+	width: 1250px;
+	margin: 0 auto;
+	padding: 23px;
+}
+
+div.header{
+	background: #ba8529;
+	outline: 2px solid black;
+	width: 99.7%;
+	margin-left: 2px;
+	margin-bottom: 3px;
+	padding: 0px;
+}
+ .header img
+ {
+ 	margin-top: 5px;
+ }
+.square {
+  padding-top: 598px;
+  margin-top: 140px;
+  top: 0;
+  left: 1;
+  height: 715px;
+  width: 227px;
+  position: absolute;
+  background: black;
+  }
+
+div.nav{
+	text-align: center;
+	margin-right: 0px;
+	background: black;
+	text-indent: 30px;
+
+}
+
+div.nav ul{
+	margin: 1px;
+	padding: 10px 0;
+}
+
+div.nav ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+
+div.nav ul li a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-family: Arial;
+	font-weight: bold;
+	margin-right: 15px;
+	padding: 10px;	
+}
+
+div.nav ul li a.active{
+	color: #ba8529;
+}
+
+div.nav ul li a:hover{
+	color: khaki;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+div.banner{
+	width: 102%;
+	height: 250px;
+	margin-left: 230px;
+	margin-right: 0px;
+}
+
+div.banner img{
+	width: 79.9%;
+	height: 648px;
+	outline: 2px solid black;
+	margin-top: 2px;
+}
+div.banner1{
+	width: 125%;
+	height: 250px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+div.banner1 img{
+	width: 79.8%;
+	margin-top: 2px;
+	margin-left: 2px;
+	height: 1030px;
+	outline: 2px solid black;
+}
+.sidebar {
+  color: white;
+  width: 130px;
+  padding-top: 0px;
+  margin-top: 0px;
+  top: 0;
+  left: 1;
+  position: relative;
+  height: 100%;
+  overflow: auto;
+  text-align: center;
+  margin-left: 9px;
+  display: inline-block;
+  background: transparent;
+  padding: 10px 40px;
+  color: white;
+  outline: 2px solid yellowgreen;
+  font-family: Century Gothic;
+  font-size: 12px;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+  }
+ 
+.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 225px;
+  margin-top: 150px;
+  padding: 1px 16px;
+  height: 600px;
+  background: white;
+  color: black;
+}
+div.content p {
+  text-align: justify;
+  background: white;
+}
+
+div.footer {
+	padding-top: 15px;
+	padding-bottom:2px;
+	text-align: center;
+	background: khaki;
+	color: black;
+	outline: 2px solid black;
+	margin-bottom: 0px;
+	width: 1008.5px;
+}
+
+div.footer img{
+	padding-top: 3px;
+}
+div.footer p{
+	font-weight: bold;
+	background: khaki;
+	text-align: center;
+}
+
+div.footer1 {
+	clear: both;
+	margin-left: 0px;
+	padding-top:15px;
+	padding-bottom:10px;
+	text-align: center;
+	background: khaki;
+	color: black;
+	outline: 2px solid black;
+	width: 99.7%;
+	margin-left: 2px;
+	margin-bottom: 0px;
+}
+
+div.footer1 p{
+	font-weight: bold;
+}
+
+div.footer1 img{
+	padding: 0px;
+	margin: 0px;
+}
+div.right-side-bar{
+	width: 180px;
+	float: right;
+	min-height: 50px;
+	margin: 10px 0px 10px 10px;
+	margin-top: 250px;
+	margin-right: 90px;
+}
+
+div.right-side-bar img{
+	width: 269px;
+	height: 410px;
+	padding-top: 200px;
+}
+
+div.right-side-bar ul{
+	margin: 0;
+	padding: 0px;
+}
+
+div.right-side-bar ul li{
+	list-style-type: none;
+}
+
+div.contact-section{
+  margin-left: 300px;
+  margin-right: 300px;
+
+}
+.contact-section h1{
+  text-align: center;
+  color: #34495e;
+  margin-bottom: 0px;
+}
+.contact-section p{
+  text-align: center;
+  color: #34495e;
+}
+.border{
+  width: 100px;
+  height: 10px;
+  background: transparent;
+}
+
+.contact-form{
+ max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+}
+
+.contact-form-text{
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px  0;
+  border: 1px solid #34495e;
+  background: transparent;
+  padding: 20px 40px;
+  outline: black;
+  color: black;
+  transition: 0.5s;
+
+}
+.contact-form-text:focus{
+  box-shadow: 0 0 10px 4px #34495e;
+}
+
+textarea.contact-form-text{
+  resize: none;
+  height: 120px;
+ border: 1px solid #34495e;
+}
+.contact-form-btn{
+  border: 0;
+  padding: 12px 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+  color: lightgray;
+  font-family: Century Gothic;
+  background: #34495e;
+  outline: 1px solid #34495e;
+}
+.contact-form-btn:hover{
+  background: steelblue;
+}
